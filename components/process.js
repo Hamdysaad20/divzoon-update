@@ -8,6 +8,7 @@ import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons";
 function process() {
     return (
         <div className="text-center md:text-left mt-20 pt-10 sm:motion-safe:hover:animate-none">
+          
             <h1 className="  text-3xl tracking-tight font-extrabold text-gray-900 sm:text-5xl">
             We Simplify Software Development Process
             </h1>
