@@ -14,52 +14,56 @@ function technologys() {
         <Tab className='mx-6 hover:text-gray-800 active:text-red-600'>Back End</Tab>
         <Tab className='mx-6 hover:text-gray-900 active:text-red-600'> CMS</Tab>
       </Tab.List>
-      <Tab.Panels className="mt-14">
-        <Tab.Panel className="technowww">       
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+      <Tab.Panels className="mt-14 content-center">
 
-</Tab.Panel>
-<Tab.Panel className="technowww">       
-<div className="mx-7"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="mx-7"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="mx-7"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="mx-7"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="mx-7"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+
+
+      <Tab.Panel className="technowww content-center ">       
+<div className="m-3 md:m-7"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
 
 
 </Tab.Panel>
-<Tab.Panel className="technowww">       
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<Tab.Panel className="technowww ">       
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
 
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
 
 </Tab.Panel>
 <Tab.Panel className="technowww">       
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
-             <div className="mx-7"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
 
 </Tab.Panel>
 <Tab.Panel className="technowww">       
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
-<div className="mx-7"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+             <div className="m-3"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+             <div className="m-3"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+             <div className="m-3"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+             <div className="m-3"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+             <div className="m-3"><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" /></div>
+
+</Tab.Panel>
+<Tab.Panel className="technowww">       
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
+<div className="m-3"><img src="https://pbs.twimg.com/media/CZGHPChUAAA3jqE.png" /></div>
 
 
 </Tab.Panel>

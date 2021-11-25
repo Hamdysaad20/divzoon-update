@@ -2,6 +2,7 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function services() {
 
+  
     return (
 
 
@@ -12,7 +13,7 @@ function services() {
 </h1>
 
  <div  id="child" className="py-7 pb-28 unselectable flex flex-row lg:overflow-hidden overflow-y-hidden overflow-scroll float:left;
-  overflow-hidden
+ 
  ">
 
 
@@ -23,7 +24,7 @@ function services() {
 <div class="relative px-4  h-full mt-6">
  
   <div style={{backgroundColor: '#C3D8F6'}} class=" bg-white divcard p-2 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
-  <img src="https://i.ibb.co/54fCRWh/removal-ai-tmp-61508bdca6870.png"  className= " w-[260px] p-3 mb-10 unselectable w-96 mb-3 object-cover display-block object-center mx-auto "/>    
+  <img src="https://i.ibb.co/54fCRWh/removal-ai-tmp-61508bdca6870.png"  className= " w-[260px] p-3  unselectable w-96 mb-3 object-cover display-block object-center mx-auto "/>    
 
    <div class="flex items-baseline">  
    </div>
@@ -53,9 +54,9 @@ function services() {
 
 <div className="m-3 ">
 
-<div class="relative px-4 mt-6  h-full">
-  <div style={{backgroundColor:'#E6DDF4'}} class="relative   bg-white divcard p-2 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
-  <img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/services-mobile-apps.svg"  className=" w-[250px]  mb-12   object-cover object-center mx-auto  "/>    
+<div class="relative px-2 mt-6  h-full">
+  <div style={{backgroundColor:'#E6DDF4'}} class="relative   bg-white divcard p-4 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
+  <img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/services-mobile-apps.svg"  className=" w-[250px]  mb-12   object-cover object-center mx-auto p-2 "/>    
 
    <div class="flex items-baseline ">
     
@@ -71,7 +72,7 @@ function services() {
  
  
  <div className="text-center">
-<button className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
+<button id="box2" className="  hover:text-black duration-500 mt-8 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
    Read More <span className="ml-3"><FontAwesomeIcon className=" " icon={faAngleRight} size="1x"  />
 </span>
 </button>
@@ -95,7 +96,7 @@ function services() {
    <span class="t-5 mr-4  text-base text-gray-500  sm:text-lg    md:text-xl">Our web developers create custom web and web application solutions. We deliver web presence to help you grow your business using the best web technologies.</span>
  </div>  
  <div className="text-center">
-<button className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
+<button id="box3" className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
    Read More <span className="ml-3"><FontAwesomeIcon className=" " icon={faAngleRight} size="1x"  />
 </span>
 </button>
@@ -132,7 +133,7 @@ function services() {
   
 
 <div className="text-center">
-<button className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
+<button id="box4" className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
    Read More <span className="ml-3"><FontAwesomeIcon className=" " icon={faAngleRight} size="1x"  />
 </span>
 </button>
@@ -140,7 +141,8 @@ function services() {
   
  </div>
 </div>
-
+ 
+ 
 
 
 </div>

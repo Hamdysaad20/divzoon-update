@@ -4,10 +4,13 @@ import {} from '@fortawesome/free-solid-svg-icons'
 class Footer extends Component {
   render() {
     return (
-      <footer>
-			<p class="text-center m-7">&copy; Copyrights to Divzoon</p>
+     <div className="bg-gray-700 h-16 p-3">
+<footer className="">
+			<a href="https://divzoon.com/"><p className=" hover:text-red-600 text-center text-white  mx-7">&copy; Copyrights to Divzoon</p></a>
 		</footer>
     
+     </div>
+     
     );
   }
 }
