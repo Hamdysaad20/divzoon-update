@@ -21,12 +21,13 @@
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
     "react-tiny-fab": "^4.0.3"
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
     "style-loader": "^3.3.0",
-    "tailwindcss": "^2.2.4"
+    "tailwindcss": "^3.0.2"
   }
 }

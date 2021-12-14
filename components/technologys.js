@@ -20,10 +20,10 @@ function technologys() {
 
       <Tab.Panel className="technowww content-center ">       
 <div className="m-3 md:m-7"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
-<div className="m-3"><img src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
+<div className="m-3"><img className="h-16 w-16" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" /></div>
 
 
 </Tab.Panel>

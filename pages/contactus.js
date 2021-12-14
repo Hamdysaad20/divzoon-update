@@ -3,20 +3,23 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Fragment } from 'react'
 import Alarm from '../components/alarm'
-import Cuimg from '../components/cuimg'
+import Title from '../components/title'
+import Services from '../components/services'
 
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Services', href: '#' },
-    { name: 'Pricing', href: '#' },
+    { name: 'Services', href: '/services' },
+    { name: 'Pricing', href: 'pricingp' },
     { name: 'Contact Us', href: '/contactus' },
   ]    
 function contactus() {
     return (
        
        <div className="">
-            
+          <Title tit=" Contact Us"  />  
+          <link rel="icon" href="/divicobg.ico" />
+
                <div className=" "><Alarm/></div>
 
   <div className="xl:ml-9 mx-auto  ">
@@ -30,7 +33,7 @@ function contactus() {
                 
                   <div className="flex items-center  justify-between w-full md:w-auto ">
                     <a href="/">
-<h1 className="text-red-600 logoheader">Divzoon</h1>
+<h1 className="logoheader">Divzoon</h1>
                       <span className="sr-only">Workflow</span>
 
                     </a>
@@ -100,8 +103,8 @@ function contactus() {
           </Popover>
 
         </div>
-        <Cuimg className=""/>
-
+   
+<Footer/>
              </div>
              
      
