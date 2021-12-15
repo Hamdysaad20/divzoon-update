@@ -13,7 +13,7 @@ function form() {
             </div>
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
               <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
-                <h3 className="mb-6 text-2xl font-medium text-center">Contact with E-mail</h3>
+                <h3 className="mb-6 text-2xl font-medium text-center">Contact With E-Mail</h3>
                 <input type="text" name="email" className="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none" placeholder="Email address" />
                 <input type="text" name="password" className="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none" placeholder="Say hi !" />
                 <div className="block">

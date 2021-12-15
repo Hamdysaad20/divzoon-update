@@ -14,10 +14,10 @@ const navigation = [
 
 
 
-function Headercomp({H2headerRed,H1headerGray,pheader ,getStarted, imageSrc, imageAltText,whatWeDo}) {
+function Headercomp({ hrefbb,hrefab ,H2headerRed,H1headerGray,pheader ,getStarted, imageSrc, imageAltText,whatWeDo}) {
   return (
 
-    <header className="">
+    <header className=" max-w-7xl mx-auto mb-10">
       <Title/>
           <div className="relative bg-white overflow-hidden  ">
       <div className="xl:ml-9 mx-auto">
@@ -113,11 +113,11 @@ function Headercomp({H2headerRed,H1headerGray,pheader ,getStarted, imageSrc, ima
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
-                <Link href="/services">
+                <Link href={hrefab}>
 
                   <li
                     
-                    className="hover:ring active:ring-4 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
+                    className=" hover:ring active:ring-4 w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 md:py-4 md:text-lg md:px-10"
                   >
                     {getStarted}
                   </li>
@@ -125,7 +125,8 @@ function Headercomp({H2headerRed,H1headerGray,pheader ,getStarted, imageSrc, ima
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a 
-                    href="/services"
+                  href={hrefbb}
+                
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-red-100 hover:bg-red-200 md:py-4 md:text-lg md:px-10"
                   >
 {whatWeDo}                </a>
@@ -136,9 +137,9 @@ function Headercomp({H2headerRed,H1headerGray,pheader ,getStarted, imageSrc, ima
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <div className="lg:absolute z-50 lg:inset-y-0 lg:right-0 lg:w-1/2">
 
-        <Image   src={imageSrc} alt={imageAltText} layout="fill" objectFit="cover" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
+        <Image   src={imageSrc} alt={imageAltText}layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full" />
 
       </div>
     </div>
