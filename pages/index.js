@@ -20,11 +20,12 @@ function index() {
           <Head>
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>
-<Title/>
+<title>Divzoon</title>
 
 <div className=" "><Alarm/></div>
 <div className=""><Headercomp/></div>
 <div className="bg-gray-50"><Sliderbrands/></div>
+
 <div className=" sec2c"><Section2/></div>
 <div className=" "><Services/></div>
 <div className=" sec2c "><Processver2/></div>
