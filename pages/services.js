@@ -18,7 +18,7 @@ function services() {
     return (
         <div>
                   <div className="">
-          <Title tit=" Contact Us"  />  
+          <Title tit=" Divzoon Services"  />  
           <link rel="icon" href="/divicobg.ico" />
 
                <div className=" "><Alarm/></div>

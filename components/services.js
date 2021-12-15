@@ -1,5 +1,7 @@
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Link from 'next/link'
+
 function services() {
 
   
@@ -28,17 +30,19 @@ function services() {
 
    <div class="flex items-baseline">  
    </div>
-   <h4 class="mt-1  text-2xl tracking-tight font-bold text-gray-800 sm:text-3xl text-center">Hire Dedicated Developers</h4>
+   <h4  class="mt-1  text-2xl tracking-tight font-bold text-gray-800 sm:text-3xl text-center">Hire Dedicated Developers</h4>
 
  
  <div class="mt-4 text-center mb-9">
    <span class="t-5 mr-4  text-base text-gray-500  sm:text-lg    md:text-xl">Creat your own team for yout software development project on short term , long terom or permanent basis witj guaranteed project delivery at affordable prices.</span>
  </div>  
  <div className="text-center ">
-<button className="  hover:text-black duration-500 mt-1 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
+ <Link href="/hireDev">
+<button  className="  hover:text-black duration-500 mt-1 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
    Read More <span className="ml-3"><FontAwesomeIcon className=" " icon={faAngleRight} size="1x"  />
 </span>
 </button>
+</Link>
 </div>
  </div>
 </div>
@@ -133,10 +137,12 @@ function services() {
   
 
 <div className="text-center">
+<Link href="/pricingp">
 <button id="box4" className="hover:text-black duration-500 mt-3 text-red-500 text-center h-12  md:w-32 w-full  font-medium ">
    Read More <span className="ml-3"><FontAwesomeIcon className=" " icon={faAngleRight} size="1x"  />
 </span>
 </button>
+</Link>
 </div>
   
  </div>

@@ -11,18 +11,19 @@ import Pricing from '../components/pricing'
 import CallToAction from '../components/callToAction'
 import Form from '../components/form'
 import Title from '../components/title'
-
+import * as React from 'react';
+import Fab from '@mui/material/Fab';
 
 export default function Home() {
   return (
-
-    <div>
+<div >
+    <div className='relative' >
 <Title tit="Divzoon" />
 
 <link rel="icon" href="/divicobg.ico" />
 
-    <div className=" "><Alarm/></div>
 
+    <div className=" "><Alarm/></div>
     <div className=""><Headercomp/></div>
     <div className="bg-gray-50"><Sliderbrands/></div>
     <div className=" sec2c"><Section2/></div>
@@ -38,9 +39,10 @@ export default function Home() {
    
     <div className=" "><Footer/></div>
 
-
-
-    </div>
-
+<div className='bg-red-500 absolute z-50 right-8 bottom-3'>
+ <Fab size="larg" color="primary" aria-label="add"></Fab>
+  </div>
+      </div>
+      </div>
   )
 }
