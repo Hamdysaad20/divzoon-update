@@ -1,11 +1,14 @@
+import Head from 'next/head'
+
 function title(props) {
     return (
         <div>
  <div>
             
         <title>{props.tit}</title>
-        <link rel="icon" href="/divicobg.ico" />
-      
+        <Head>
+          <link rel="shortcut icon" href="/divicobg.ico" />
+     </Head>      
     </div>
         </div>
     )
