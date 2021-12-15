@@ -1,8 +1,10 @@
 import Footer from '../components/footer'
+import Head from 'next/head';
 
 import Alarm from '../components/alarm'
 import Title from '../components/title'
 import ContHeader from '../components/contHeader'
+import Form from '../components/form'
 
 
 
@@ -11,13 +13,15 @@ function contactus() {
        
        <div className="">
           <Title tit=" Contact Us"  />  
-          <link rel="icon" href="/divicobg.ico" />
-
+          <Head>
+          <link rel="shortcut icon" href="/divicobg.ico" />
+     </Head>
                <div className=" "><Alarm/></div>
 
-   <ContHeader/>
+<ContHeader/>
+<Form/>
 <Footer/>
-             </div>
+   </div>
              
      
     )

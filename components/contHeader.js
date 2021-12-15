@@ -16,7 +16,7 @@ const navigation = [
 function contHeader() {
   return (
 
-    <header className="">
+    <header className=" mb-10">
       <Title/>
           <div className="relative bg-white overflow-hidden  ">
       <div className="xl:ml-9 mx-auto">
@@ -113,7 +113,7 @@ function contHeader() {
           </main>
         </div>
       </div>
-      <div className="lg:absolute lg:inset-y-3 lg:right-0 lg:w-1/2">
+      <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 
         <Image src="/contus.png" alt="me" layout="fill" objectFit="cover" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
 

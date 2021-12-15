@@ -5,6 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { Fragment } from 'react'
 import Alarm from '../components/alarm'
 import Title from '../components/title'
+import Head from 'next/head'
 
 import CallToAction from "../components/callToAction"
 const navigation = [
@@ -18,8 +19,9 @@ function pricingp() {
     
     <div>
      <Title tit="Divzoon Pricing" />                       <div className=" "><Alarm/></div>
-     <link rel="icon" href="/divicobg.ico" />
-
+     <Head>
+          <link rel="shortcut icon" href="/divicobg.ico" />
+     </Head>
 <div className="xl:ml-9 mx-auto  ">
      
         <Popover>

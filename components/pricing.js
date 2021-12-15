@@ -11,7 +11,7 @@ function pricing() {
               Simple, Transparent Pricing
             </h2>
             <p className="box-border mt-2 text-xl text-gray-900 border-solid sm:text-2xl">
-              Pricing to fit the needs of any companie size.
+              Pricing for websites to fit the needs of any company size.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-4 mt-4 leading-7 text-gray-900 border-0 border-gray-200 sm:mt-6 sm:gap-6 md:mt-8 md:gap-0 lg:grid-cols-3">

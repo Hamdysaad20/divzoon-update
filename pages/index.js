@@ -12,37 +12,41 @@ import CallToAction from '../components/callToAction'
 import Form from '../components/form'
 import Title from '../components/title'
 import * as React from 'react';
-import Fab from '@mui/material/Fab';
 
-export default function Home() {
+function index() {
   return (
-<div >
-    <div className='relative' >
-<Title tit="Divzoon" />
 
-<link rel="icon" href="/divicobg.ico" />
+    <div>
+          <Head>
+          <link rel="shortcut icon" href="/divicobg.ico" />
+     </Head>
+<Title/>
+
+<div className=" "><Alarm/></div>
+<div className=""><Headercomp/></div>
+<div className="bg-gray-50"><Sliderbrands/></div>
+<div className=" sec2c"><Section2/></div>
+<div className=" "><Services/></div>
+<div className=" sec2c "><Processver2/></div>
 
 
-    <div className=" "><Alarm/></div>
-    <div className=""><Headercomp/></div>
-    <div className="bg-gray-50"><Sliderbrands/></div>
-    <div className=" sec2c"><Section2/></div>
-    <div className=" "><Services/></div>
-    <div className=" sec2c "><Processver2/></div>
-
-
-    <Team />
-  <Form/>
-    <Pricing/>
+<Team />
+<Form/>
+<Pricing/>
 <CallToAction/>
 
-   
-    <div className=" "><Footer/></div>
+
+<div className=" "><Footer/></div>
 
 <div className='bg-red-500 absolute z-50 right-8 bottom-3'>
- <Fab size="larg" color="primary" aria-label="add"></Fab>
+
+</div>
   </div>
-      </div>
-      </div>
+    
   )
 }
+
+export default index
+
+
+      

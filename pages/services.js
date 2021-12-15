@@ -6,6 +6,7 @@ import Alarm from '../components/alarm'
 import Title from '../components/title'
 import Services from '../components/services'
 import Processver2 from './../components/processver2';
+import Head from 'next/head'
 
 
 const navigation = [
@@ -19,8 +20,9 @@ function services() {
         <div>
                   <div className="">
           <Title tit=" Divzoon Services"  />  
-          <link rel="icon" href="/divicobg.ico" />
-
+          <Head>
+          <link rel="shortcut icon" href="/divicobg.ico" />
+     </Head>
                <div className=" "><Alarm/></div>
 
   <div className="xl:ml-9 mx-auto  ">
