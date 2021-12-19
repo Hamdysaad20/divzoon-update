@@ -1,3 +1,4 @@
+
 function callToAction() {
     return (
         <div>
@@ -10,7 +11,9 @@ function callToAction() {
           Upgrade your existing website and make it responsive with 2022 designs!
           </p>
           <div className="relative flex flex-col justify-center md:flex-row md:space-x-4">
-            <a href="#_" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-red-700 rounded-md md:mb-0 hover:bg-red-900 md:w-auto">
+          
+
+            <a href="/contactus" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-red-700 rounded-md md:mb-0 hover:bg-red-900 md:w-auto">
               Try It Now
               <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
                 <line x1={5} y1={12} x2={19} y2={12} />

@@ -16,7 +16,7 @@ const navigation = [
 function contHeader() {
   return (
 
-    <header className=" max-w-[100rem] mx-auto mb-10">
+    <header className="  mx-auto mb-10">
       <Title/>
           <div className="relative bg-white overflow-hidden  ">
       <div className="xl:ml-9 mx-auto">

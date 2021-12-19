@@ -5,8 +5,9 @@ function title(props) {
         <div>
  <div>
             
-        <title>{props.tit}</title>
         <Head>
+        <title>{props.tit}</title>
+
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>      
     </div>

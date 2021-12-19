@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 function downFotteerImga() {
     return (
       <div>
@@ -9,9 +11,12 @@ function downFotteerImga() {
             <div className="mx-auto mt-5 text-gray-500 md:mt-12 md:max-w-lg md:text-center lg:text-lg">Simplifying the process of creating websites and applications, so you can focus on what matter</div>
             <div className="flex flex-col items-center mt-12 text-center">
               <span className="relative inline-flex w-full md:w-auto">
-                <a href="#_" type="button" className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
+              <Link href="/contactus">
+
+                <button href="/contactus" type="button" className="inline-flex items-center justify-center w-full px-8 py-4 text-base font-bold leading-6 text-white bg-red-700 border border-transparent rounded-full md:w-auto hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700">
                   Order Now
-                </a>
+                </button>
+                <Link/>
                 <span className="absolute top-0 right-0 px-2 py-1 -mt-3 -mr-6 text-xs font-medium leading-tight text-white bg-green-400 rounded-full">Only 250$ </span>
               </span>
               <a href="#" className="mt-3 text-sm text-red-700">Learn More</a>

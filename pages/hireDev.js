@@ -20,6 +20,8 @@ const variants = {
       };
     }
   };
+  
+
 function hireDev() {
     return (
         <div>
@@ -34,6 +36,7 @@ function hireDev() {
             imageSrc="/tgfh.png"
             
           />
+          
            <motion.div
     initial="hidden"
     animate="visible"
