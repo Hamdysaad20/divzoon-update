@@ -14,9 +14,11 @@ function form() {
             <div className="w-full mt-16 md:mt-0 md:w-2/5">
               <div className="relative z-10 h-auto p-8 py-10 overflow-hidden bg-white border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
                 <h3 className="mb-6 text-2xl font-medium text-center">Contact With E-Mail</h3>
-                <form action="https://formsubmit.co/support@divzoon.com" method="POST" />
-                <input type="email" name="email" className="block w-full px-4 py-3 mb-4  border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none"  id="email" placeholder="Email address" />
-      <select name="cars" className="block w-full px-4 py-3 mb-4  border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none" id="cars">
+                <form netlify 
+                name="contact-form"
+                action="https://formsubmit.co/support@divzoon.com" method="POST" />
+                <input required type="email" name="email" className="block w-full px-4 py-3 mb-4  border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none"  id="email" placeholder="Email address" />
+      <select name="Servic" className="block w-full px-4 py-3 mb-4  border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-red-700 focus:outline-none" id="cars">
         <option name="web" value="web">Website</option>
         <option name="andro" value="andro">App for Android (native) </option>
         <option name="cross" value="cross">App for Android and iOS(Cross platforms)</option>
@@ -24,10 +26,8 @@ function form() {
         <option name="ui" value="ui">Ui/Ux Design</option>
         <option name="upgradeex" value="upgradeex">Upgrade your existing website</option>
       </select>
-      
-                <div className="block">
-                  <input  type="submit" className="w-full px-3 py-4 duration-500 hover:bg-black font-medium text-white bg-red-700 rounded-lg" value="Send"/>
-                </div>
+                  <button  type="submit" className="w-full px-3 py-4 duration-500 hover:bg-black font-medium text-white bg-red-700 rounded-lg" value="Send">Send</button>
+              
                <form/>
                 <p className="w-full mt-4 text-sm text-center text-gray-500">Put your email and tell us how can we help you.  <a href="#_" className="text-blue-500 underline">Help? </a></p>
               </div>
