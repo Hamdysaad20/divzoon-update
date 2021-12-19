@@ -29,7 +29,7 @@ function form() {
                   <button  type="submit" className="w-full px-3 py-4 duration-500 hover:bg-black font-medium text-white bg-red-700 rounded-lg" value="Send">Send</button>
               
                <form/>
-                <p className="w-full mt-4 text-sm text-center text-gray-500">Put your email and tell us how can we help you.  <a href="#_" className="text-blue-500 underline">Help? </a></p>
+                <p className="w-full mt-4 text-sm text-center text-gray-500">Put your email and tell us how can we help you.  <a href="/help" className="text-blue-500 underline">Help? </a></p>
               </div>
             </div>
           </div>
