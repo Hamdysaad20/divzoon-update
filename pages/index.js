@@ -30,10 +30,9 @@ function index() {
 <div className=" "><Services/></div>
 <div className=" sec2c "><Processver2/></div>
 
-
-<Team />
 <Form/>
-<Pricing/>
+<Team />
+
 <CallToAction/>
 
 
