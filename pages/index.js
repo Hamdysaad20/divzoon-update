@@ -13,7 +13,7 @@ import Title from '../components/title'
 function index() {
   return (
 
-    <>
+    <div>
 <Title/>
 
 <main>
@@ -37,7 +37,7 @@ function index() {
 
 </div>
 </main>
-  </>
+  </div>
     
   )
 }
