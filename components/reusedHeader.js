@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Title from '../components/title'
 import Link from 'next/link'
+import Image from 'next/Image'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -136,7 +137,7 @@ function ReusedHeader({ hrefbb,hrefab ,H2headerRed,H1headerGray,pheader ,getStar
       </div>
       <div className="lg:absolute z-50 lg:inset-y-0 lg:right-0 lg:w-1/2">
 
-        <img   src={imageSrc} alt={imageAltText}layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full" />
+        <Image   src={imageSrc} alt={imageAltText}layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full" />
 
       </div>
     </div>

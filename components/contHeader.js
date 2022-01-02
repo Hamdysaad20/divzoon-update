@@ -3,6 +3,7 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Title from './Title'
 import Link from 'next/link'
+import Image from 'next/Image'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -114,7 +115,7 @@ function contHeader() {
       </div>
       <div className="lg:absolute lg:inset-y-8 z-40 lg:right-0 lg:top-2  lg:w-1/2">
 
-        <img src="/contus.png" alt="me" layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
+        <Image src="/contus.png" alt="me" layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
 
       </div>
     </div>
