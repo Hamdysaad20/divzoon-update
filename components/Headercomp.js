@@ -1,8 +1,7 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import Title from '../components/title'
-import Image from 'next/image'
+import Title from './Title'
 import Link from 'next/link'
 
 const navigation = [
@@ -44,11 +43,11 @@ function Headercomp() {
                     </div>
                   </div>
                 </div>
-                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-4">
+                <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-4 font-bold	 text-gray-500 hover:text-gray-900">
                   {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-bold	 text-gray-500 hover:text-gray-900">
+                    <Link key={item.name} href={item.href} className="">
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
 
                 </div>
@@ -86,13 +85,13 @@ function Headercomp() {
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
                     {navigation.map((item) => (
-                      <a
+                      <Link
                         key={item.name}
                         href={item.href}
                         className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50"
                       >
                         {item.name}
-                      </a>
+                      </Link>
                     ))}
                   </div>
 
@@ -136,7 +135,7 @@ What we do                  </a>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
 
-        <Image src="/HeaderSecImg.jpg" alt="me" layout="fill" objectFit="cover" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
+        <img src="/HeaderSecImg.jpg" alt="me" layout="fill" objectFit="cover" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"  />
 
       </div>
     </div>

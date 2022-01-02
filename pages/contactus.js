@@ -1,10 +1,9 @@
 import Footer from '../components/footer'
 import Head from 'next/head';
-
 import Alarm from '../components/alarm'
-import Title from '../components/title'
 import ContHeader from '../components/contHeader'
 import Form from '../components/form'
+import Title from '../components/Title';
 
 
 
@@ -12,7 +11,7 @@ function contactus() {
     return (
        
        <div className="">
-          <Title tit=" Contact Us"  />  
+          <Title tit="Contact Us"  />  
           <Head>
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>

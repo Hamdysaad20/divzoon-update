@@ -1,5 +1,5 @@
 import HeaderDivzoon from './../components/headerDivzoon';
-import Title from '../components/title'
+import Title from '../components/Title'
 import Head from 'next/head'
 import Footer from '../components/footer'
 

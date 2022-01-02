@@ -1,4 +1,5 @@
 
+import Image from 'next/image'
 
 function team() {
 
@@ -19,7 +20,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-100" />
-                <img className="relative z-20 w-full rounded-full" src="ava/2.jpg" />
+                <Image className="relative z-20 w-full rounded-full"  height="200" width="200"  src="/ava/2.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -32,7 +33,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-yellow-100" />
-                <img className="relative z-20 w-full rounded-full" src="ava/1.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/1.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -45,7 +46,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-red-200" />
-                <img className="relative z-20 w-full rounded-full" src="ava/3.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/3.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -58,7 +59,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-100" />
-                <img className="relative z-20 w-full rounded-full" src="ava/4.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/4.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -71,7 +72,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-purple-200" />
-                <img className="relative z-20 w-full rounded-full" src="ava/5.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/5.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -84,7 +85,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className="hover:scale-105 duration-300  relative p-5">
                 <div className="absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-100" />
-                <img className="relative z-20 w-full rounded-full" src="ava/6.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/6.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -97,7 +98,7 @@ function team() {
             <div className=" flex flex-col items-center justify-center col-span-1">
               <div className=" hover:scale-105 duration-300 relative p-5">
                 <div className=" absolute z-10 w-full h-full -mt-5 -ml-5 rounded-full rounded-tr-none bg-green-100" />
-                <img className="relative z-20 w-full rounded-full" src="ava/7.jpg" />
+                <Image className="relative z-20 w-full rounded-full" height="200" width="200" src="/ava/7.jpg" />
               </div>
               <div className="mt-3 space-y-2 text-center">
                 <div className="space-y-1 text-lg font-medium leading-6">
@@ -110,7 +111,7 @@ function team() {
             <div className="flex flex-col items-center justify-center col-span-1">
               <div className=" relative p-5">
                 <div className="  absolute z-10 w-full h-full  -mt-5 -ml-5 rounded-full rounded-tr-none  bg-gray-200" />
-                <img className="animate-ping p-6 sm:12 md:p-11 relative z-20 w-full rounded-full" src="/plus-1.png" />
+                <img className="animate-ping p-6 sm:12 md:p-11 relative z-20 w-full rounded-full"height="200" width="200" src="/plus-1.png" />
 
               </div>
               <div className="mt-3 space-y-2 text-center">

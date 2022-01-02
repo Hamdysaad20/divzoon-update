@@ -6,7 +6,7 @@ function title(props) {
  <div>
             
         <Head>
-        <title>{props.tit}</title>
+        <title>Divzoon  {props.tit}</title>
 
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>      
