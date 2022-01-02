@@ -2,7 +2,6 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Title from '../components/title'
-import Image from 'next/image'
 import Link from 'next/link'
 
 const navigation = [
@@ -115,7 +114,7 @@ function headerDivzoon({ hrefbb,hrefab ,H1headerGray,pheader ,getStarted, imageS
       </div>
       <div className="lg:absolute lg:inset-y-8 z-40 lg:right-0 lg:top-2  lg:w-1/2">
 
-      <Image   src={imageSrc} alt={imageAltText}layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full" />
+      <img   src={imageSrc} alt={imageAltText} layout="fill" objectFit="contain" className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full" />
 
       </div>
     </div>

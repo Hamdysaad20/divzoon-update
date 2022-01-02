@@ -26,7 +26,7 @@ function services() {
 <div class="relative px-4  h-full mt-6">
  
   <div style={{backgroundColor: '#C3D8F6'}} class=" bg-white divcard p-2 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
-  <img src="https://i.ibb.co/54fCRWh/removal-ai-tmp-61508bdca6870.png"  className= " w-[260px] p-3  unselectable w-96 mb-3 object-cover display-block object-center mx-auto "/>    
+  <img src="/Serv1.png"  className= " w-[260px] p-3  unselectable w-96 mb-3 object-cover display-block object-center overflow-hidden max-h-60 mx-auto "/>    
 
    <div class="flex items-baseline">  
    </div>
@@ -60,7 +60,7 @@ function services() {
 
 <div class="relative px-2 mt-6  h-full">
   <div style={{backgroundColor:'#E6DDF4'}} class="relative   bg-white divcard p-4 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
-  <img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/services-mobile-apps.svg"  className=" w-[250px]  mb-12   object-cover object-center mx-auto p-2 "/>    
+  <img src="serv2.png"  className=" w-[250px]  mb-12   object-cover object-center mx-auto p-2 "/>    
 
    <div class="flex items-baseline ">
     
@@ -87,7 +87,7 @@ function services() {
 
 <div class="relative  px-4 mt-6  ">
   <div style={{backgroundColor: '#CCCCFF'}} class=" bg-white divcard p-6 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
-  <img  src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/services-ui-ux.svg"  className=" w-[300px] mb-12 object-cover mx-auto object-center   "/>    
+  <img  src="serv3.png"  className=" w-[300px] mb-12 object-cover mx-auto object-center   "/>    
 
    <div class="flex items-baseline">
     
@@ -123,7 +123,7 @@ function services() {
   <div style={{backgroundColor: '#C9E8DB'}} class="bg-white divcard p-6 rounded-lg duration-500 hover:shadow-2xl my-7 pt-2">
 
    <div class="flex items-baseline">
-      <img src="http://www.heynic.com/wp-content/uploads/2020/04/splash-image001.png"  className="object-cover mx-auto w-[300px] object-center   "/>    
+      <img src="/serv4.png"  className="object-cover mx-auto w-[300px] object-center   "/>    
 
    </div>
    <div>
