@@ -1,7 +1,6 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
-import Title from './Title'
 import Link from 'next/link'
 import Image from 'next/Image'
 
@@ -17,7 +16,6 @@ function contHeader() {
   return (
 
     <header className="  mx-auto mb-10">
-      <Title/>
           <div className="relative bg-white overflow-hidden  ">
       <div className="xl:ml-9 mx-auto">
         <div className="relative z-10 pb-8  bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
