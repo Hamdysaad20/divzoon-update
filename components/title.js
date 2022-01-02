@@ -1,12 +1,12 @@
 import Head from 'next/head'
 
-function title(props) {
+function title() {
     return (
         <div>
  <div>
             
         <Head>
-        <title>Divzoon  {props.tit}</title>
+        <title>Divzoon</title>
 
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>      

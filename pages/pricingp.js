@@ -18,9 +18,7 @@ function pricingp() {
     <div>
                          <div className=" "><Alarm/></div>
      <Head>
-     <Title 
-     tit="Divzoon Pricing"
-     />  
+     <Title/>  
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>
 
