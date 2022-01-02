@@ -11,9 +11,10 @@ function contactus() {
     return (
        
        <div className="">
-          <Title tit="Contact Us"  />  
+           
           <Head>
           <link rel="shortcut icon" href="/divicobg.ico" />
+          <Title tit="Contact Us"  /> 
      </Head>
                <div className=" "><Alarm/></div>
 

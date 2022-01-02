@@ -1,8 +1,6 @@
 import Footer from '../components/footer'
-import Title from '../components/title'
 import Services from '../components/services'
 import Processver2 from './../components/processver2';
-import Head from 'next/head'
 import Alarm from '../components/alarm'
 import HeaderDivzoon from './../components/headerDivzoon';
 
