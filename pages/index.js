@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Footer from '../components/footer'
 import Headercomp from '../components/Headercomp'
 import Section2 from '../components/section2'
@@ -10,15 +9,12 @@ import Processver2 from './../components/processver2';
 import CallToAction from '../components/callToAction'
 import Form from '../components/form'
 import * as React from 'react';
-
+import Title from '../components/title'
 function index() {
   return (
 
     <>
-          <Head>
-          <link rel="shortcut icon" href="/divicobg.ico" />
-
-          </Head>
+<Title/>
 
 <main>
 <div className=" "><Alarm/></div>

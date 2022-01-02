@@ -1,17 +1,13 @@
 import HeaderDivzoon from './../components/headerDivzoon';
 import Title from '../components/Title'
-import Head from 'next/head'
+
 import Footer from '../components/footer'
 
 function help() {
     return (
      
      <div>
-      <Head>
-      <Title tit="Divzoon Help"/>
-      
-          
-      </Head>
+<Title/>
            <HeaderDivzoon
   H1headerGray="Are You Stuck ?  get help "
   pheader="Contact us on Support email , so we could help you find what you need within under 48 hours "
