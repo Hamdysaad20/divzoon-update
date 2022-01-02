@@ -30,7 +30,7 @@ function index() {
 <div className=" "><Services/></div>
 <div className=" sec2c "><Processver2/></div>
 
-<Form/>npm run useDebugValue(value)
+<Form/>
 <Team />
 
 <CallToAction/>
