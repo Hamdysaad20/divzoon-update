@@ -9,7 +9,7 @@ import Processver2 from './../components/processver2';
 import CallToAction from '../components/callToAction'
 import Form from '../components/form'
 import * as React from 'react';
-import Title from '../components/title'
+import Title from '../components/Title'
 function index() {
   return (
 

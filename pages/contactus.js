@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Alarm from '../components/alarm'
 import ContHeader from '../components/contHeader'
 import Form from '../components/form'
-import Title from '../components/Title';
+import Title from '../components/Title'
 
 
 
