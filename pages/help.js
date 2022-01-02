@@ -1,5 +1,4 @@
 import HeaderDivzoon from './../components/headerDivzoon';
-import Title from '../components/Title'
 
 import Footer from '../components/footer'
 
@@ -7,7 +6,6 @@ function help() {
     return (
      
      <div>
-<Title/>
            <HeaderDivzoon
   H1headerGray="Are You Stuck ?  get help "
   pheader="Contact us on Support email , so we could help you find what you need within under 48 hours "

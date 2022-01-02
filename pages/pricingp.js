@@ -1,7 +1,6 @@
 import Footer from "../components/footer"
 import Pricing from "../components/pricing"
 import Alarm from '../components/alarm'
-import Title from '../components/title'
 import Head from 'next/head'
 import HeaderDivzoon from './../components/headerDivzoon';
 
@@ -18,7 +17,6 @@ function pricingp() {
     <div>
                          <div className=" "><Alarm/></div>
      <Head>
-     <Title/>  
           <link rel="shortcut icon" href="/divicobg.ico" />
      </Head>
 
