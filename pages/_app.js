@@ -1,6 +1,6 @@
 import 'tailwindcss/tailwind.css'
 import '../styles/style.css'
-import Head from 'next/Head'
+import Head from 'next/head'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false; 
