@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: divzoon.com
+Token: 7ae9933c008ad9cbd23128275d65cc035bdb530f866a488a4a9b41672149e4fd
