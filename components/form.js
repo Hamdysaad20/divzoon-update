@@ -22,14 +22,13 @@ function form() {
                 <h3 className="mb-6 text-2xl font-medium text-center">
                   Contact With E-Mail
                 </h3>
-                <h3 className="mb-6 text-lg text-red-600 font-medium text-center">
-                  support@divzoon.com
-                </h3>
+                <a href="mailto:support@divzoon.com">
+                  <h3 className="mb-6 text-lg text-red-600 font-medium text-center">
+                    support@divzoon.com
+                  </h3>
+                </a>
                 <p className="w-full mt-4 text-sm text-center text-gray-500">
-                  tell us how can we help you.
-                  <a href="/help" className="text-blue-500 underline">
-                    Help?{' '}
-                  </a>
+                  Tell us how can we help you.
                 </p>
               </div>
             </div>

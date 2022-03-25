@@ -117,6 +117,7 @@ function contHeader() {
             objectFit="contain"
             className="h-60   sm:h-72 md:h-96 lg:w-full lg:h-full"
             eager
+            priority
           />
         </div>
       </div>
